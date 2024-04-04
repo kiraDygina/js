@@ -1,3 +1,43 @@
-h1{color: blueviolet;
-text-align: center;
-font-size: 50px;}
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+body{
+    background-color: black;
+    font-family: "Cardo", serif;
+    margin: 20px;
+}
+h1{font-size: 55px;
+ color: white;
+text-align: center;}
+.contanier{width: 800px;
+justify-content: center;
+align-items: center;
+border-left:5px double white ;
+
+border-right:5px double white ;
+
+margin: 0 auto;}
+
+.js-input{padding: 15px;
+
+color: blueviolet;
+font-size: 20px;}
+.js-btn{padding: 15px;
+   
+    color: blueviolet;
+    font-size: 20px;
+cursor: pointer;}
+
+.js-btn:hover{ box-shadow: 3px 3px 3px white;
+top:20px}
+
+.js-todos{padding: 15px;
+    color: white;
+    font-size: 35px;
+}
+
+    .done-btn{padding: 10px;
+   
+
+width: 130px;
+height: 30px;}
